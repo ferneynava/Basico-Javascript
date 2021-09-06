@@ -62,3 +62,12 @@ let shiftArray = array.pop()
 
 //revisamos. EL output debe ser [1,2,3,4]
 console.log(array)
+
+// validar (verdadero o falso)
+
+array.includes(); // Nos permite validar (verdadero o falso) si un elemento ha sido almacenado en el array. 
+
+const array1 = [1, 2, 3];
+
+console.log(array1.includes(2));
+// expected output: true
