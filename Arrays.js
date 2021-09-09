@@ -24,6 +24,12 @@ var posicion = frutas.indexOf("Cereza"); //Nos regala la posicion en el indice d
             return valorAcumulado + nuevoElemento;
         }
     );
+//La función reductora(reduce) recibe cuatro argumentos:
+
+//Acumulador (acc)
+//Valor Actual (cur)
+//Índice Actual (idx)
+//Array (src)
 
 //.push() : nos permite agrgar uno o mas elementos al final de un array
 
