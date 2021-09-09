@@ -16,6 +16,14 @@ var nuevaLongitud = frutas.unshift("Uvas");//Agrega un dato a la parte inicial d
 var borrarFruta = frutas.shift("Uvas"); //Elimina el primer dato del array
 var posicion = frutas.indexOf("Cereza"); //Nos regala la posicion en el indice del dato indicado 
 
+/// Metodo reduce ejecuta una función reductora sobre cada elemento de un array, devolviendo como resultado un único valor.
+
+ const sumaLista = lista.reduce(//Ejecuta una funcion reductora sobre cada elemento de un array, 
+                                  //devolviendo como resultado un unico valor. Reduce suma cada uno de los elementos, recibe el primer elemento y lo sumamos con el segundo luego el segundo con el tercero 
+        function (valorAcumulado = 0, nuevoElemento ){
+            return valorAcumulado + nuevoElemento;
+        }
+    );
 
 //.push() : nos permite agrgar uno o mas elementos al final de un array
 
@@ -71,3 +79,5 @@ const array1 = [1, 2, 3];
 
 console.log(array1.includes(2));
 // expected output: true
+
+
