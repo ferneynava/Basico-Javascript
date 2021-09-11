@@ -50,3 +50,5 @@ console.log(valC); // 42
 
 null ??= 5 // => 5 // ??= Es un operador lógico que devuelve su operando del lado 
                    // derecho cuando su operando del lado izquiero es null o undefined
+
+% // Resto o modulo El operador resto (%) devuelve el resto de la división entre dos operandos. 
