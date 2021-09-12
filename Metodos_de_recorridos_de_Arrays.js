@@ -50,3 +50,17 @@ var articulos = [
 var nombreArticulos = articulos.map(function(articulo){//parametro articulo  que vaya a mapear
      return articulo.nombre;  // regrese de todos los articulos el nombre de los articulos
 });
+
+//metodo sort(): Ordena los elementos de un arreglo (array) localmente y devuelve el arreglo ordenado. arr.sort([compareFunction])
+var frutas = ['guindas', 'manzanas', 'bananas'];
+frutas.sort(); // ['bananas', 'guindas', 'manzanas']
+
+var puntos = [1, 10, 2, 21];
+puntos.sort(); // [1, 10, 2, 21]
+
+var numbers = [4, 2, 5, 1, 3];
+numbers.sort(function(a, b) {
+  return a - b;
+});
+console.log(numbers); // [1, 2, 3, 4. 5]
+
