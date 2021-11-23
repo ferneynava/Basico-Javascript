@@ -18,7 +18,7 @@ var posicion = frutas.indexOf("Cereza"); //Nos regala la posicion en el indice d
 
 /// Metodo reduce ejecuta una función reductora sobre cada elemento de un array, devolviendo como resultado un único valor.
 
- const sumaLista = lista.reduce(//Ejecuta una funcion reductora sobre cada elemento de un array, 
+ const sumaLista = lista.reduce(//Ejecuta una funcion reductora sobre cada elemento de un array, Suma, multiplica, resta o divide cada uno de los elementos. 
                                   //devolviendo como resultado un unico valor. Eje: Reduce suma cada uno de los elementos, recibe el primer elemento y lo sumamos con el segundo luego el segundo con el tercero 
         function (valorAcumulado = 0, nuevoElemento ){
             return valorAcumulado + nuevoElemento;
