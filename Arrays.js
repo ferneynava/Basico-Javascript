@@ -87,3 +87,18 @@ console.log(array1.includes(2));
 // expected output: true
 
 
+//splice() cambia el contenido de un array eliminando elementos existentes y/o agregando nuevos elementos.
+     //Agrega elementos  
+var myFish = ['angel', 'clown', 'mandarin', 'sturgeon'];
+var removed = myFish.splice(2, 0, 'drum');
+
+// myFish is ["angel", "clown", "drum", "mandarin", "sturgeon"]
+// removed is [], no elements removed
+
+    // Elimina elementos y esos elementos eliminados se guardan en un array
+var myFish = ['angel', 'clown', 'drum', 'mandarin', 'sturgeon'];
+var removed = myFish.splice(3, 1);
+
+// removed is ["mandarin"]
+// myFish is ["angel", "clown", "drum", "sturgeon"]
+
