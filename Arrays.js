@@ -31,6 +31,21 @@ var posicion = frutas.indexOf("Cereza"); //Nos regala la posicion en el indice d
 //Índice Actual (idx)
 //Array (src)
 
+const numbers = [2,4,6,8,10];
+
+// acc = Acumulador (Acumula cada operación que se realice se almacena en la variable acc) Valor Anterior 
+// item = Elemento Actual (Elemento actual que esta haciendo recorrido por la función Reduce)
+// index = Indice del elemento actual 
+// Arreglo que estamos iterando 
+numbers.reduce((acc, item, index, arr) => {  
+    console.log(acc, item); 
+// acc=2 item=4
+// acc=6 item=6
+// acc=12 item=8
+// acc=20 item=10
+    return acc + item;
+})
+
 //.push() : nos permite agrgar uno o mas elementos al final de un array
 
 let numArray = [1,2,3,4,5]
