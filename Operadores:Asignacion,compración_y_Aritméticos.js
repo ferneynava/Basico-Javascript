@@ -24,8 +24,20 @@ var a = 1; //= asignando el valor a la variable
 
 7 !== 4 //El operador de desigualdad estricta ( !==) comprueba si sus dos operandos no son iguales y devuelve un resultado booleano.
 console.log(1 !== 1); // expected output: false
+console.log('1' !==  1);
+// expected output: true
 
-a && b; // va a validar que a y b son verdad se cumple esa condición
+a && b; // va a validar que a y b son verdad se cumple esa condición( Si  a es verdadero me toma b)
+
+a1 = true  && true       // t && t returns true
+a2 = true  && false      // t && f returns false
+a3 = false && true       // f && t returns false
+a4 = false && (3 == 4)   // f && f returns false
+a5 = 'Cat' && 'Dog'      // t && t returns "Dog"
+a6 = false && 'Cat'      // f && t returns false
+a7 = 'Cat' && false      // t && f returns false
+a8 = ''    && false      // f && f returns ""
+a9 = false && ''         // f && f returns false
 
 a || b; // va a validar que solo a o b sea verdad para que se cumpla esa condición
 
