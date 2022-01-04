@@ -117,3 +117,12 @@ var removed = myFish.splice(3, 1);
 // removed is ["mandarin"]
 // myFish is ["angel", "clown", "drum", "sturgeon"]
 
+//flat es un metodo que lo que hace es aplanar un array 
+
+const flat = [1, 2, 3, [4, 5,] 6].flat(); 
+console.log(flat); // resultado consola [1, 2, 3, 4, 5, 6]  // El array que esta dentro del array es eliminar el array anidado e incorporar los elementos al array superior. ( Solo elimina un nivel del array  si queremos eliminar mas niveles del array anidados debemos colocar el numero )
+//var newArray = arr.flat([depth]);
+//depth (Optional): El nivel de profundidad que especifica qué tan profunda debe aplanarse una estructura de matriz anidada. El valor predeterminado es 1.
+
+
+//El método flatMap() primero mapea cada elemento usando una función de mapeo, luego aplana el resultado en una nueva matriz.
