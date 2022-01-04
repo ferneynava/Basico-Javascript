@@ -22,6 +22,9 @@ var a = 1; //= asignando el valor a la variable
 5 >= 6; //5 es mayor o igual que 6 es false
 5 <= 6; //5 es menor o igual que 6 es true
 
+7 !== 4 //El operador de desigualdad estricta ( !==) comprueba si sus dos operandos no son iguales y devuelve un resultado booleano.
+console.log(1 !== 1); // expected output: false
+
 a && b; // va a validar que a y b son verdad se cumple esa condición
 
 a || b; // va a validar que solo a o b sea verdad para que se cumpla esa condición
