@@ -6,10 +6,10 @@ var miAuto = {
 
 };
 
-//Acceder a los valores de un objeto
+//Acceder a los valores de un objeto con . o se puede utilizar ?.
 miAuto.marca
 miAuto.annio
-
+ //?. permite leer el valor de una propiedad ubicada dentro de una cadena de objetos conectados sin tener que validar expresamente que cada referenica en la cadena sea válida
 //// Metodos (funciones como valor del objeto)
 
 var miAuto = {
@@ -27,3 +27,5 @@ var miAuto = {
 };
 
 miAuto.destalleDelAuto();
+
+//?.  Encadenamiento opcional (
