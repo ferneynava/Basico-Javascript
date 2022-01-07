@@ -78,3 +78,17 @@ null ??= 5 // => 5 // ??= Es un operador lógico que devuelve su operando del la
                    // derecho cuando su operando del lado izquiero es null o undefined
 
 % // Resto o modulo El operador resto (%) devuelve el resto de la división entre dos operandos. 
+  
+//Bitwise OR (|)
+//El operador OR bit a bit ( |) devuelve a 1en cada posición de bit para la que los bits correspondientes de uno o ambos operandos son 1s.
+  
+const a = 5; //101
+const b = 3; //111
+console.log(a | b); // 111
+
+
+//a	B	   a o B
+//0	0	     0
+//0	1	     1
+//1	0	     1
+//1	1	     1
