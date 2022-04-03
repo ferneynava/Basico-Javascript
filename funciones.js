@@ -15,3 +15,9 @@ miFuncion();
 var numero = 9.46789; 
 var conDecimal = numero.toFixed(2); 
 // Igual a 9.47 
+
+var suma = (a,b) => {
+   console.log(a + b);
+}
+
+ suma(6,5);
