@@ -126,3 +126,14 @@ console.log(flat); // resultado consola [1, 2, 3, 4, 5, 6]  // El array que esta
 
 
 //El método flatMap() primero mapea cada elemento usando una función de mapeo, luego aplana el resultado en una nueva matriz.
+
+//El método some() comprueba si al menos un elemento del array cumple con la condición implementada por la función proporcionada.
+const fruits = [
+  { id: 1, name: 'Lime', quantity: 5 },
+  { id: 2, name: 'Apple', quantity: 30 },
+  { id: 3, name: 'Pineapple', quantity: 3 },
+];
+
+const count = fruits.some((fruit) => fruit.quantity > 5);
+
+
